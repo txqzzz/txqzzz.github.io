@@ -16,8 +16,8 @@ author:
   email: 'txqzzz@hotmail.com'
   facebook_username: ''
   github_username: 'txqzzz'
-  head_img: 'shttps://avatars3.githubusercontent.com/u/15365938?v=3&s=460'
-  desc: 'I am a student from NEU CSE, learning web development now. I love CS, maths and travelling. Life is a continuous learning process, and codes make me more rigorous, maths make me more rationla, and travel makes my life colorful. I am looking forward to a better me and better life. Still waiting for a better you.'
+  head_img: 'static/img/landing/sora2.jpg'
+  desciption:  'I am a student from NEU CSE, learning web development now. I love CS, maths and travelling. Life is a continuous learning process, and codes make me more rigorous, maths make me more rationla, and travel makes my life colorful. I am looking forward to a better me and better life. Still waiting for a better you.'
 
 # sections
 sections:
