@@ -1,23 +1,23 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "Jalpc"
-description: "Jack's blog,use Jekyll and github pages."
-keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
+title: "Enigma"
+description: "Code, life and us."
+keywords: "XIngqi_dsay,blog,Jekyll,github"
 baseurl: "/"
-url: "http://www.jack003.com"
+url: "https://txqzzz.github.io"
 # url: "http://127.0.0.1:4000"
 
 # author
 author:
-  name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
-  email: 'me@jack003.com'
-  facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
-  head_img: 'static/img/landing/Jack.jpg'
-  desc: 'I am a Python engineer with website development, automation Ops and writing scripts experience. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel.'
+  name: 'XIngqi_dsay'
+  first_name: 'Dsay'
+  last_name: 'XInQ'
+  email: 'txqzzz@hotmail.com'
+  facebook_username: ''
+  github_username: 'txqzzz'
+  head_img: 'shttps://avatars3.githubusercontent.com/u/15365938?v=3&s=460'
+  desc: 'I am a student from NEU CSE, learning web development now. I love CS, maths and travelling. Life is a continuous learning process, and codes make me more rigorous, maths make me more rationla, and travel makes my life colorful. I am looking forward to a better me and better life. Still waiting for a better you.'
 
 # sections
 sections:
@@ -27,23 +27,23 @@ sections:
     tpl: 'about.html'
     css: ''
 
-  - id: 'career'
-    i18n: 'nav.career'
-    name: 'Career'
-    tpl: 'career.html'
-    css: 'timeline'
+#  - id: 'career'
+#  i18n: 'nav.career'
+# name: 'Career'
+# tpl: 'career.html'
+# css: 'timeline'
 
-  - id: 'skills'
-    i18n: 'nav.skills'
-    name: 'Skills'
-    tpl: 'skills.html'
-    css: 'team'
+#  - id: 'skills'
+#    i18n: 'nav.skills'
+#    name: 'Skills'
+#    tpl: 'skills.html'
+#    css: 'team'
 
-  - id: 'projects'
-    i18n: 'nav.projects'
-    name: 'Projects'
-    tpl: 'projects.html'
-    css: 'project'
+#  - id: 'projects'
+#    i18n: 'nav.projects'
+#    name: 'Projects'
+#    tpl: 'projects.html'
+#    css: 'project'
 
   - id: 'blog'
     i18n: 'nav.blog'
@@ -51,11 +51,11 @@ sections:
     tpl: 'blog.html'
     css: 'testimonials navy-section'
 
-  - id: 'links'
-    i18n: 'nav.link'
-    name: 'Links'
-    tpl: 'links.html'
-    css: 'contact'
+#  - id: 'links'
+#    i18n: 'nav.link'
+#    name: 'Links'
+#    tpl: 'links.html'
+#    css: 'contact'
 
 # localization
 languages:
@@ -74,23 +74,23 @@ donate:
 
 # comment
 changyan:
-  # appid: cysfY7ULn
-  # conf: prod_861928934cecb7a18e15bedaed9dae29
+  # appid: 
+  # conf: 
 disqus:
-  name: jalpc
-  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
+  name: txqzzz
+#  public_key: 
 
 # share
 bshare:
-  uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
+  uuid: 
 
 # baidu analytics
 ba:
-  uuid: 317acca9ef9255b934e46371e471431d
+  uuid: 
 
 # google analytics
 ga:
-  id: UA-73784599-1
+  id: UA-83536104-1
 
 # Build settings
 encoding: "utf-8"
@@ -100,4 +100,19 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
+  syntax_highlighter: roug
+paginate: 5
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-paginate #
+
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+
