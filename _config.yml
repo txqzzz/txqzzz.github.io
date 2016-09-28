@@ -5,8 +5,8 @@ title: "Enigma"
 description: "Code, life and us."
 keywords: "XIngqi_dsay,blog,Jekyll,github"
 baseurl: "/"
-url: "https://txqzzz.github.io"
-# url: "http://127.0.0.1:4000"
+url: "https://txqzzz.github.io
+ #url: "http://127.0.0.1:4000"
 
 # author
 author:
@@ -17,7 +17,7 @@ author:
   facebook_username: ''
   github_username: 'txqzzz'
   head_img: 'static/img/landing/sora2.jpg'
-  description:  'I am a student from NEU CSE, learning web development now. I love CS, maths and travelling. Life is a continuous learning process, and codes make me more rigorous, maths make me more rationla, and travel makes my life colorful. I am looking forward to a better me and better life. Still waiting for a better you.'
+#desc:  'I am a student from NEU CSE, learning web development now. I love CS, maths and travelling. Life is a continuous learning process, and codes make me more rigorous, maths make me more rationla, and travel makes my life colorful.'
 
 # sections
 sections:
@@ -65,12 +65,12 @@ languages:
     flag: 'static/img/flags/China.png'
 
 # blog img path
-img_path: 'http://www.jack003.com/static/img/blog'
+img_path: ''
 
 # donate
 donate:
-  wechat: 'static/img/pay/wechat.png'
-  alipay: 'static/img/pay/alipay.png'
+  wechat: ''
+  alipay: ''
 
 # comment
 changyan:
