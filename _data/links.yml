@@ -1,8 +1,8 @@
-- last_name: 
-  first_name:
-  desc: ''
-  website: ''
-  email: ''
+- last_name: NEU 
+  first_name: OJ
+  desc: 'an online judgement system'
+  website: 'http://oj.neu.edu.cn'
+  email: 'zhangjianqiu13@gmail.com'
 
 - last_name: 
   first_name: 
