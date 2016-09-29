@@ -51,11 +51,11 @@ sections:
     tpl: 'blog.html'
     css: 'testimonials navy-section'
 
-#  - id: 'links'
-#    i18n: 'nav.link'
-#    name: 'Links'
-#    tpl: 'links.html'
-#    css: 'contact'
+  - id: 'links'
+    i18n: 'nav.link'
+    name: 'Links'
+    tpl: 'links.html'
+    css: 'contact'
 
 # localization
 languages:
@@ -100,19 +100,17 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: roug
-paginate: 5
-gems:
+  syntax_highlighter: rouge
+  gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-paginate #
-
 
 # Exclude these files from your production _site
 exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - README.md
+  - README.m
   - CNAME
 
