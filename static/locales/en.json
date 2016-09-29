@@ -1,6 +1,6 @@
 {
   "website":{
-    "title": "Jack's blog"
+    "title": "Enigma"
   },
   "nav":{
     "home": "Home",
@@ -13,9 +13,9 @@
   },
   "about_me":{
     "about_me": "About Me",
-    "des": "I am a Python engineer with website development, automation Ops and writing scripts experience. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel."
+    "des": "I am a student from NEU CSE, learning web development now. I love CS, maths and travelling. Life is a continuous learning process, and codes make me more rigorous, maths make me more rationla, and travel makes my life colorful."
   },
-  "skills":{
+  "skills"{
     "my_skills": "My Skills"
   },
   "projects":{
