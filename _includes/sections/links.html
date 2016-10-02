@@ -7,12 +7,12 @@
     </div>
     <div class="row">
     {% for link in site.data.links %}
-        {% assign loopindex = forloop.index | modulo: 3 %}
+        {% assign loopindex = forloop.index | modulo: 3%}
         {% if forloop.last %}
             {% if forloop.last == forloop.first %}
         <div class="col-sm-4 col-sm-offset-4 wow zoomIn">
                 {% else %}
-        <div class="col-sm-4 wow {% if loopindex != 0 %} col-sm-offset-4 fadeInRight {% else %} zoomIn {% endif %}">
+        <div class="col-sm-4 wow {% if loopindex != 0 %} col-sm-set-4 fadeInRight {% else %} zoomIn {% endif %}">
             {% endif %}
         {% else %}
         <div class="col-sm-4 wow {% if loopindex == 1 %} fadeInLeft {% else if loopindex == 2 %} zoomIn {% else %} fadeInRight {% endif %}">
