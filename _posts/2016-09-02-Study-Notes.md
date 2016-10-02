@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algorithms_notes
+title: Algorithms notes
 date: 2016-09-02
 categories: [Curriculum]
 tags: [algorithms]

@@ -18,3 +18,9 @@
 
 - name: Life
   href: '/life/'
+
+- name: C
+  href:'/C'
+
+- name: Curriculum
+  href: '/curriculum'
