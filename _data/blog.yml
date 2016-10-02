@@ -7,8 +7,8 @@
 - name: Linux
   href: '/linux/'
 
-- name: HTML
-  href: '/html/'
+- name: Web Dev
+  href: '/web_dev/'
 
 - name: Database
   href: '/database/'
