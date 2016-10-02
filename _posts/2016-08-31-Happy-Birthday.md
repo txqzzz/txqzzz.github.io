@@ -2,7 +2,7 @@
 layout: post
 title: Happy birthday.
 date : 2016-08-31
-categories: [life]
+categories: [Life]
 tags: [xxx]
 ---
 

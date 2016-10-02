@@ -2,7 +2,7 @@
 layout: layout
 title: Learn to use markdown.
 date: 2016-08-30
-categories: [linux]
+categories: [Linux]
 tags: [markdown]
 ---
 

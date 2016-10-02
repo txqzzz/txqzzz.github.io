@@ -2,7 +2,7 @@
 layout: post
 title: Algorithms_notes
 date: 2016-09-02
-categories: [curriculum]
+categories: [Curriculum]
 tags: [algorithms]
 ---
 
