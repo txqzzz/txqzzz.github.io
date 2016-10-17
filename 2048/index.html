@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2048</title>
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="2048.css"/>
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+<header>
+    <h1>2048</h1>
+    <a href="javascript:newgame();" id="btn-newgame">New Game</a>
+    <div class="scores-container">
+        <div class="score-container" id="score">0</div>
+        <!--<div class="best-container">0</div>-->
+    </div>
+    </div>
+</header>
+<!--container-->
+<div id="grid-container">
+    <div class="grid-cell" id="grid-cell-row0-col0"></div>
+    <div class="grid-cell" id="grid-cell-row0-col1"></div>
+    <div class="grid-cell" id="grid-cell-row0-col2"></div>
+    <div class="grid-cell" id="grid-cell-row0-col3"></div>
+
+    <div class="grid-cell" id="grid-cell-row1-col0"></div>
+    <div class="grid-cell" id="grid-cell-row1-col1"></div>
+    <div class="grid-cell" id="grid-cell-row1-col2"></div>
+    <div class="grid-cell" id="grid-cell-row1-col3"></div>
+
+    <div class="grid-cell" id="grid-cell-row2-col0"></div>
+    <div class="grid-cell" id="grid-cell-row2-col1"></div>
+    <div class="grid-cell" id="grid-cell-row2-col2"></div>
+    <div class="grid-cell" id="grid-cell-row2-col3"></div>
+
+    <div class="grid-cell" id="grid-cell-row3-col0"></div>
+    <div class="grid-cell" id="grid-cell-row3-col1"></div>
+    <div class="grid-cell" id="grid-cell-row3-col2"></div>
+    <div class="grid-cell" id="grid-cell-row3-col3"></div>
+
+</div><!--container-->
+    <p class="game-explanation">
+        <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
+    </p>
+    <hr>
+
+    <p>
+        Created by <a href="http://txqzzz.github.io" target="_blank">Xingqi_dsay</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a>
+    </p>
+<!--javascript-->
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="animation2048.js"></script>
+<script type="text/javascript" src="main2048.js"></script>
+<script type="text/javascript" src="support2048.js"></script>
+
+</body>
+</html>
+
