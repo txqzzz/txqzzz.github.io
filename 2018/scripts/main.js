@@ -5,12 +5,12 @@
   const FRAME_RATE = 60
   const PARTICLE_NUM = 2000
   const RADIUS = Math.PI * 2
-  const CANVASWIDTH = 800
+  const CANVASWIDTH = 500
   const CANVASHEIGHT = 150
   const CANVASID = 'canvas'
 
 
-  let texts = ['暮色已降','走过街角','忽然之间','把你想起','...','七夕快乐呀','给世界上最可爱的小可爱']
+  let texts = ['暮色已降','走过街角','忽然之间','把你想起','...','七夕快乐呀','世界第一可爱']
   let canvas,
     ctx,
     particles = [],
